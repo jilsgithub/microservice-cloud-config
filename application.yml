@@ -2,6 +2,7 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url: http://ems-registry-service:8761/eureka/
+    service-url: 
+      defaultZone: http://ems-registry-service:8761/eureka/
   instance:
     hostname: ems-registry-service
