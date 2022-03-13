@@ -6,6 +6,5 @@ eureka:
       defaultZone: http://10.152.183.254:8761/eureka/
   instance:
     prefer-ip-address: false
-    hostname: configserver
  
   
