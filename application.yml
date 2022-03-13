@@ -4,5 +4,7 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://ems-registry-service:8761/eureka/
+  instance:
+    prefer-ip-address: false
  
   
