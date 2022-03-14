@@ -1,10 +1,10 @@
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
+    registerWithEureka: 'true'
+    fetchRegistry: 'true'
     serviceUrl:
-      defaultZone: http://ems-registry-service:9090/eureka/
+      defaultZone: 'http://ems-registry-service:9090/eureka/'
   instance:
-    hostname: 10.1.220.87
+    hostname: ems-registry-service
  
   
