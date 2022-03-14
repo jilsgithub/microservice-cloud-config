@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://ems-registry-serice:9090/eureka/
+      defaultZone: http://ems-registry-service:9090/eureka/
   instance:
     hostname: CONFIG-SERVER
  
