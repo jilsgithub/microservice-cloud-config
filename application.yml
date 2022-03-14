@@ -5,6 +5,6 @@ eureka:
     serviceUrl:
       defaultZone: http://ems-registry-service:8761/eureka/
   instance:
-    hostname: CONFG-SERVER
+    hostname: CONFIG-SERVER
  
   
