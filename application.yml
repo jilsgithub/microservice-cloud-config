@@ -1,7 +1,7 @@
 eureka:
   client:
     registerWithEureka: true
-    fetchRegistry: true
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://ems-registry-service:9090/eureka/
   instance:
